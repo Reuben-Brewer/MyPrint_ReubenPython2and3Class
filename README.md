@@ -2,6 +2,7 @@
 Custom module that can print to any combination of terminal/command-window, Tkinter-parent-GUI, and local log file (like a .txt file).
 
 ########################  
+
 Reuben Brewer
 reuben.brewer@gmail.com
 www.reubotics.com
@@ -19,11 +20,13 @@ Raspberry Pi Buster
 ########################  
 
 ###########################
+
 Custom module that can print to any combination of terminal/command-window, Tkinter-parent-GUI, and local log file (like a .txt file).
 
 ###########################
 
 ########################### Installation instructions
+
 Windows and Raspberry Pi:
 
 No additional Python modules are required (uses installed-by-default modules only).
