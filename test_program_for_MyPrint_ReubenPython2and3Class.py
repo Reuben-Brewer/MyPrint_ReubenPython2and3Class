@@ -3,7 +3,7 @@
 '''
 Reuben Brewer, reuben.brewer@gmail.com, www.reubotics.com
 Apache 2 License
-Software Revision C, 05/28/2021
+Software Revision C, 08/29/2021
 
 Verified working on: Python 2.7 and 3.7 for Windows 8.1 64-bit and Raspberry Pi Buster (no Mac testing yet).
 '''
@@ -237,7 +237,7 @@ if __name__ == '__main__':
         MyPrint_ReubenPython2and3ClassObject_setup_dict = dict([("NumberOfPrintLines", 10),
                                                                 ("WidthOfPrintingLabel", 150),
                                                                 ("PrintToConsoleFlag", 1),
-                                                                ("LogFileNameFullPath", os.getcwd() + "//TestLog.txt"),
+                                                                ("LogFileNameFullPath", os.getcwd().replace("\\", "//") + "//test_folder//TestLog.txt"),
                                                                 ("GUIparametersDict", MyPrint_ReubenPython2and3ClassObject_GUIparametersDict)])
 
         try:

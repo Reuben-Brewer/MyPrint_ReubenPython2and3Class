@@ -3,7 +3,7 @@
 '''
 Reuben Brewer, reuben.brewer@gmail.com, www.reubotics.com
 Apache 2 License
-Software Revision C, 05/28/2021
+Software Revision D, 08/29/2021
 
 Verified working on: Python 2.7 and 3.7 for Windows 8.1 64-bit and Raspberry Pi Buster (no Mac testing yet).
 '''
@@ -343,6 +343,22 @@ class MyPrint_ReubenPython2and3Class(Frame): #Subclass the Tkinter Frame
     ##########################################################################################################
     ##########################################################################################################
 
+    #######################################################################################################################
+    #######################################################################################################################
+    def CreateNewDirectoryIfItDoesntExist(self, DirectoryFullPathToCheck):
+        try:
+            #print("CreateNewDirectoryIfItDoesntExist, DirectoryFullPathToCheck = " + DirectoryFullPathToCheck)
+            if os.path.isdir(DirectoryFullPathToCheck) == 0:
+                os.makedirs(DirectoryFullPathToCheck)
+                #print("CreateNewDirectoryIfItDoesntExist, created new directory!")
+        except:
+            exceptions = sys.exc_info()[0]
+            print("CreateNewDirectoryIfItDoesntExist ERROR, Exceptions: %s" % exceptions)
+            traceback.print_exc()
+
+    #######################################################################################################################
+    #######################################################################################################################
+
     ##########################################################################################################
     ##########################################################################################################
     def SetPrintToConsoleFlag(self, value):
@@ -362,6 +378,9 @@ class MyPrint_ReubenPython2and3Class(Frame): #Subclass the Tkinter Frame
         ######################################################
         try:
             if self.LogFileNameFullPath != "":
+                print(os.path.dirname(self.LogFileNameFullPath))
+                self.CreateNewDirectoryIfItDoesntExist(os.path.dirname(self.LogFileNameFullPath)) #os.path.dirname grabs just the directory path
+
                 with open(self.LogFileNameFullPath, "a+") as self.LogFileObject: #File is created if it doesn't exist, automatically closes cleanly due to "with" if program crashes
                     self.LogFileObject.write("######################################################" + "\n")
                     while True:
