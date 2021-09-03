@@ -3,8 +3,10 @@ Custom module that can print to any combination of terminal/command-window, Tkin
 
 ########################  
 
-Reuben Brewer
+Reuben Brewer, Ph.D.
+
 reuben.brewer@gmail.com
+
 www.reubotics.com
 
 Apache 2 License
