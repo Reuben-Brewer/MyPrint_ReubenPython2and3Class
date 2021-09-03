@@ -1,11 +1,11 @@
 ########################  
-Reuben Brewer
+Reuben Brewer, Ph.D.
 reuben.brewer@gmail.com
 www.reubotics.com
 
 Apache 2 License
 
-Software Revision C, 05/28/2021
+Software Revision D, 08/29/2021
 
 Verified working on: 
 Python 2.7 and 3.7.

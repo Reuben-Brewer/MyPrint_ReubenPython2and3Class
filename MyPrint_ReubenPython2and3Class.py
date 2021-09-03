@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 
 '''
-Reuben Brewer, reuben.brewer@gmail.com, www.reubotics.com
+Reuben Brewer, Ph.D.
+reuben.brewer@gmail.com
+www.reubotics.com
+
 Apache 2 License
 Software Revision D, 08/29/2021
 
