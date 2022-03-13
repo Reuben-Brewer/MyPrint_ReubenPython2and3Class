@@ -20,10 +20,6 @@ Raspberry Pi Buster
 (no Mac testing yet)
 ########################  
 
-###########################
-
-###########################
-
 ########################### Installation instructions
 Windows and Raspberry Pi:
 
