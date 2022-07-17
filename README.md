@@ -1,4 +1,5 @@
-########################
+###########################
+
 MyPrint_ReubenPython2and3Class
 
 Custom module that can print to any combination of terminal/command-window, Tkinter-parent-GUI, and local log file (like a .txt file).
@@ -23,10 +24,10 @@ Raspberry Pi Buster
 
 (no Mac testing yet)
 
-########################  
+###########################
 
-########################### Installation instructions
-Windows and Raspberry Pi:
+########################### Python module installation instructions, all OS's
 
-No additional Python modules are required (uses installed-by-default modules only).
+['future.builtins']
+
 ###########################
