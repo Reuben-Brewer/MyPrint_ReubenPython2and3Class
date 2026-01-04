@@ -12,22 +12,30 @@ www.reubotics.com
 
 Apache 2 License
 
-Software Revision K, 05/10/2023
+Software Revision L, 12/22/2025
 
 Verified working on:
-Python 2.7, 3.8.
+
+Python 3.11/12/13.
+
 Ubuntu 20.04
-Windows 8.1, 10 64-bit
-Raspberry Pi Buster 
+
+Windows 10/11 64-bit
+
+Raspberry Pi Bookworm
+
 (no Mac testing yet)
 
 ###########################
 
 ########################### Python module installation instructions, all OS's
 
-MyPrint_ReubenPython2and3Class, ListOfModuleDependencies: ['future.builtins']
-MyPrint_ReubenPython2and3Class, ListOfModuleDependencies_TestProgram: []
+MyPrint_ReubenPython2and3Class, ListOfModuleDependencies: []
+
+MyPrint_ReubenPython2and3Class, ListOfModuleDependencies_TestProgram: ['keyboard', 'ReubenGithubCodeModulePaths']
+
 MyPrint_ReubenPython2and3Class, ListOfModuleDependencies_NestedLayers: []
-MyPrint_ReubenPython2and3Class, ListOfModuleDependencies_All:['future.builtins']
+
+MyPrint_ReubenPython2and3Class, ListOfModuleDependencies_All:['keyboard', 'ReubenGithubCodeModulePaths']
 
 ###########################
